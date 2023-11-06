@@ -1,0 +1,24 @@
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .navLinkWrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .logoutBtn {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #3f80ec;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+  }
+}

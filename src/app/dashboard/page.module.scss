@@ -1,0 +1,71 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.dashboardNewPost {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dashinput {
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid #777;
+  font-size: 20px;
+  font-weight: 900;
+  color: #777;
+}
+
+.dashTextArea {
+  background-color: transparent;
+  font-size: 14px;
+  padding: 5px;
+  outline: none;
+  color: #777;
+}
+.dashAddBtn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  font-weight: 900;
+  cursor: pointer;
+  background-color: #552e94;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.imgWrapper {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  .dashImg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.remove {
+  color: #ff0000;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.dashPost {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+  padding: 5px;
+  gap: 20px;
+}
+
+.postDashBoardTitle {
+  font-size: 20px;
+  font-weight: 500;
+}

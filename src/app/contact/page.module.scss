@@ -1,0 +1,50 @@
+.container {
+}
+
+.contactTitle {
+  text-align: center;
+  font-size: 62px;
+  margin-bottom: 60px;
+}
+.contactWrapper {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.contactImgWrapper {
+  flex: 1;
+  height: 500px;
+  position: relative;
+}
+
+.contactImg {
+  object-fit: contain;
+  animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-25px);
+  }
+  to {
+    transform: translateY(0px) scale(1.03);
+  }
+}
+
+.formContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .contactInput {
+    padding: 15px;
+    background-color: transparent;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border: 2px solid #777;
+    font-weight: 700;
+    color: #fff;
+  }
+}

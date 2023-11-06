@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 80px;
+  .homeLeftSide {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .headerTitle {
+      background: linear-gradient(to bottom, #562f92, #bbb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 72px;
+    }
+    .headerSubtitle {
+      font-size: 24px;
+      font-weight: 300;
+    }
+  }
+}
+
+.homeSide {
+  flex: 1;
+}
+
+.imgHome {
+  width: 100%;
+  object-fit: contain;
+  height: 500px;
+  animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(15px);
+  }
+}

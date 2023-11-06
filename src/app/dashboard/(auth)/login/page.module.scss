@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  .register {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .registerInput {
+      padding: 20px;
+      outline: none;
+      border-radius: 5px;
+      background-color: transparent;
+      border: 1px solid #777;
+      font-size: 20px;
+      font-weight: 900;
+      color: #777;
+    }
+  }
+}
+
+.registerBtn {
+  width: 350px;
+  padding: 20px;
+  border: none;
+  color: #fff;
+  font-weight: 900;
+  cursor: pointer;
+  background-color: #53c28b;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.registerBtn:nth-child(4) {
+  background-color: #e34034;
+}
